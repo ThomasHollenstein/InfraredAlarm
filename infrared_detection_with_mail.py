@@ -12,7 +12,7 @@ GPIO.setup(IR_PIN, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 def send_email():
     EMAIL_FROM = "thomashollenstein06@gmail.com"
-    EMAIL_PASSWORD = "hlbogdrhbcjepfxf"
+    EMAIL_PASSWORD = "<Beispiel_Passwort>"
     EMAIL_TO = "thomashollenstein06@gmail.com"
     
     time = datetime.now().strftime("%d.%m.%Y %H:%M:%S")
